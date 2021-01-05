@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav-list{
+    position: fixed;
+    width: 100%;
+    background: rgb(13, 130, 240);
+    box-shadow: -40px -15px 70px black;
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+}
+
+.nav-items{
+    list-style-type: none;
+    margin-right: 7rem;
+}
+
+#nav-element{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: -7rem;
+    list-style-type: none;
+    cursor: pointer;
+    border: none;
+}
+
+#nav-element:hover{
+    text-decoration: none;
+}
+
+#logo{
+    margin-right: auto;
+    margin-left: 15%;
+}
+
+.back-picture{
+
+    overflow: hidden;
+    height: 700px;
+    width: 96%;
+    margin-left: 4%;
+    border-radius: 10%;
+}
+
+.first-section{
+    min-height: 10vh;
+    width: 92%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.center-part{
+    width: 92%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.right-text{
+    float: right;
+    margin-right: 2rem;
+}
+
+.small-text{
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+    font-weight: 300;
+}
+
+.main-header{
+    font-size: 63px;
+    font-weight: 500;
+}
+
+.second-small-text{
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+    font-weight: 300;
+}
+
+.blue-text{
+    color: rgb(13, 130, 240);
+}
+
+.first-btn{
+    padding: 15px 70px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(13, 130, 240);
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.first-btn:hover{
+    background-color: rgb(76, 167, 252);
+}
+
+/* SECOND SECTION */
+
+.second-section{
+    min-height: 50vh;
+}
+
+.second-header{
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/* bootstrap snippet */ 
+
+  
+
+a{
+  text-decoration:none; 
+  color: #0062cc;
+}
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
+  
